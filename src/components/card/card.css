@@ -1,0 +1,26 @@
+.main-container{
+    width: 25rem;
+    height: 40rem;
+    margin: auto;
+    background-color: coral;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 10% 90%;
+    grid-template-areas:"top" "bottom";
+    border-radius: 2rem;
+}
+
+.title{
+    grid-area:top;
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.card-container {
+    grid-area: bottom;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}

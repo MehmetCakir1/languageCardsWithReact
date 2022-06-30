@@ -1,0 +1,10 @@
+
+.logo-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.react-logo {
+    height: 9rem;
+}
