@@ -8,6 +8,19 @@
     grid-template-rows: 10% 90%;
     grid-template-areas:"top" "bottom";
     border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+.strip{
+    width: 8rem;
+    height: 50rem;
+    background-color: orangered;
+    position: absolute;
+    left: 6rem;
+    top:-5rem;
+    transform: rotate(-45deg);
+    
 }
 
 .title{
@@ -23,6 +36,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    z-index: 2;
 }
 
 .card-container .card:first-child img{
