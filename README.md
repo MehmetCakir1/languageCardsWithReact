@@ -5,4 +5,6 @@
 * When you click the logo of one of the languages,it displays some information about that language for 3 seconds.<br.
 * In three seconds,you will see the card you clicked displays its logo again.<br>
 I added this functionality with setTimeout function.
+<br>
+![](https://github.com/MehmetCakir1/languageCardsWithReact/blob/master/languagesCards.gif)
  
