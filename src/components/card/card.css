@@ -24,3 +24,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 }
+
+.card-container .card:first-child img{
+    width: 8rem;
+}
