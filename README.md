@@ -6,5 +6,5 @@
 * In three seconds,you will see the card you clicked displays its logo again.<br>
 I added this functionality with setTimeout function.
 
-![](https://github.com/MehmetCakir1/languageCardsWithReact/blob/master/languagesCards.gif)
+<div align="center"><img alt="Project" src="https://github.com/MehmetCakir1/languageCardsWithReact/blob/master/languagesCards.gif"</div>
  
